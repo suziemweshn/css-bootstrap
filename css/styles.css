@@ -1,0 +1,262 @@
+.{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+html,body{
+    margin: 0px;
+    overflow-x:hidden;
+    
+    border-radius: 3px;
+    background-color:lightgray;
+}
+ul a{
+    list-style-type: none;
+}
+.logo{
+    margin-bottom: 50px;
+}
+.list{
+    margin-top: 20px;
+    color: black;
+}
+.tile{
+    width:40%;
+    height: 250px;
+    position: relative;
+    right:-600px;
+    bottom: -40px;
+    
+  
+}
+.sofa{
+    background-image: url(../Images/home-images/sofa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+.tile button{
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.bathroom img{
+    min-height: 101vh;
+}
+.outdoor img{
+    
+}
+.kitchen img{
+    position: relative;
+    top: -90px;
+    min-height: 63vh;
+   
+}
+.top-product h3{
+    text-align: center;
+}
+.creativity-section{
+    background-color: white;
+}
+
+.portfolio-info p{
+    font-size: 10px;
+}
+.secondary button{
+    width:30%;
+}
+.top-product{
+    width:60%;
+}
+
+.vision-section{
+    background-image: url(../Images/home-images/architecture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 70vh;
+}
+.vision{
+    width:40%;
+    background-color: white;
+    position: relative;
+    top:40px;
+    right:120px;
+    
+}
+.bathroom-info{
+    position: relative;
+    top:-50px;
+    margin: 6px;
+}
+.marble-info{
+    position: relative;
+    top:-50px;
+    margin: 6px;
+}
+.outdoor-info{
+    position: relative;
+    top:-100px;
+    margin: 6px;
+    padding: 2px;
+}
+.port-info{
+    position: relative;
+    top:-200px;
+    margin: 6px;
+}
+
+.show-room{
+    background-image: url(../Images/home-images/cityview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 80vh;
+max-width: 60%;
+}
+.show{
+    width:60%;
+   position: relative;
+   right: -450px;
+   top:100px;
+    
+}
+.creativity-section .portfolio-info{
+    width:200%;
+}
+.creativity-section .portfolio-info p {
+    font-size: 20px;
+}
+.video{
+    position: relative;
+    right:-100px;
+    background-color: white;
+    top:-70px;
+}
+@media (max-width:427px){
+    html,body{
+        margin:0px;
+        max-width: 100rem;
+        overflow-x: hidden;
+    }
+.tile{
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+      width:80%;
+      
+}
+        .tile p{
+            font-size: 10px;
+        }
+        .nav-item {
+            margin:0 auto;
+        }
+        .tile h4{
+            font-size: 15px;
+        }
+        .tile button{
+            padding: 0px;
+        }
+        .vision{
+            position: relative;
+            top:0px;
+            right: 0px;
+            width:60%;
+            top: 20px;
+            
+            padding: 0px;
+        }
+        .vision-section{
+            width: 100%;
+        }
+        .creativity-section .portfolio-image{
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .creativity-section .portfolio-image img{
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .creativity-section .portfolio-info{
+            width:100%;
+        }
+        .show{
+            position: relative;
+            right: 0px;
+            top:0px;
+            top:20px;
+            right: -120px;
+        }
+        .show-room{
+            max-width: 100%;
+            
+            
+            background-image: none;
+            background-image: url(../Images/home-images/cityview.png);
+            background-size: 150%;
+            background-repeat: no-repeat;
+            
+        }
+       
+      
+    
+}
+@media (max-width:769px){
+    html,body{
+        margin:0px;
+        max-width: 100rem;
+        overflow-x: hidden;
+
+    }
+    .sofa{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .tile{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        
+        
+       
+    }
+    .tile p{
+        font-size: 12px;
+    }
+    .tile button{
+        padding: 0px;
+    }
+    .product-section .portfolio-image img{
+        max-width: 100%;
+
+    }
+    .bathroom-info{
+        width:70%;
+    }
+    .marble-info{
+        width: 40%;
+    }
+    .outdoor-info{
+        width: 50%;
+    }
+    .port-info{
+        width:70%;
+    }
+    .vision{
+        position: relative;
+        right:20px
+    }
+    .creativity-section .portfolio-info{
+        width:100%;
+    }
+    .project-section img{
+        max-width: 200%;
+    }
+    .show{
+        position:relative;
+    
+    }
+}
